@@ -1,0 +1,2 @@
+# eslint-config-link-base
+

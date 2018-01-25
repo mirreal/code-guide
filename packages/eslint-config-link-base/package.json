@@ -1,0 +1,42 @@
+{
+  "name": "eslint-config-link-base",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prelint": "editorconfig-tools check rules",
+    "lint": "eslint --report-unused-disable-directives ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mirreal/code-guide.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "javascript",
+    "code guide"
+  ],
+  "author": {
+    "name": "mirreal",
+    "email": "zgkm181142521@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mirreal/code-guide/issues"
+  },
+  "homepage": "https://github.com/mirreal/code-guide",
+  "devDependencies": {
+    "editorconfig-tools": "^0.1.1",
+    "eslint": "^4.16.0",
+    "eslint-find-rules": "^3.1.1",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "engines": {
+    "node": ">= 4"
+  }
+}
