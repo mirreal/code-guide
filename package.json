@@ -1,0 +1,24 @@
+{
+  "name": "code-guide",
+  "version": "0.1.0",
+  "description": "JavaScript 编码规范指南",
+  "scripts": {
+    "preinstall": "npm run install:config && npm run install:config:base",
+    "install:config": "cd packages/eslint-config-link && npm prune && npm install",
+    "install:config:base": "cd packages/eslint-config-link-base && npm prune && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mirreal/code-guide.git"
+  },
+  "keywords": [
+    "code guide",
+    "style guide",
+    "lint",
+    "es2015",
+    "react",
+    "jsx"
+  ],
+  "author": "irdc",
+  "license": "MIT"
+}

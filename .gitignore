@@ -57,3 +57,13 @@ typings/
 # dotenv environment variables file
 .env
 
+# Mac OS
+.DS_Store
+
+# webstorm
+
+.idea/
+
+# lock file
+yarn.lock
+package-lock.json
