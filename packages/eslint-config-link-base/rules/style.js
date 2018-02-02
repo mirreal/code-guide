@@ -28,6 +28,8 @@ module.exports = {
         'comma-style': 2,
         // 在变量属性中禁用空格
         'computed-property-spacing': 2,
+        // 优先使用点表示法
+        'dot-notation': 2,
         // 文件以新行结尾
         'eol-last': 2,
         // 在函数标识和 () 之间禁用空格
