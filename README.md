@@ -1,5 +1,8 @@
 # JavaScript Code Guide
 
+[![npm version](https://img.shields.io/npm/v/eslint-config-link.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-link)
+[![npm downloads](https://img.shields.io/npm/dm/eslint-config-link.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-link)
+
 ## 如何使用
 
 参考：[eslint-config-link](./packages/eslint-config-link/README.md)
@@ -41,7 +44,7 @@ trim_trailing_whitespace = false
 
 ## ESLint 详细规范
 
-最终规范以 [eslint-config-link]() 为准
+最终规范以 [eslint-config-link](https://www.npmjs.com/package/eslint-config-link) 为准
 
 ```js
 module.exports = {
