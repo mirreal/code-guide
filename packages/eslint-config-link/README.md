@@ -4,7 +4,7 @@ JavaScript 编码规范指南
 
 ## 使用指南
 
-适用于 React + ES6 应用的 ESLint 配置，依赖于 `eslint`, `eslint-plugin-import`, `eslint-plugin-react`, 在不使用 React 的时候可以直接使用 [eslint-config-link-base]()。
+适用于 React + ES6 应用的 ESLint 配置，依赖于 `eslint`, `eslint-plugin-import`, `eslint-plugin-react`, 在不使用 React 的时候可以直接使用 [eslint-config-link-base](https://www.npmjs.com/package/eslint-config-link-base)。
 
 ### 安装
 

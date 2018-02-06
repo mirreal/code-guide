@@ -1,6 +1,6 @@
 {
   "name": "code-guide",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "JavaScript 编码规范指南",
   "scripts": {
     "preinstall": "npm run install:config && npm run install:config:base",
