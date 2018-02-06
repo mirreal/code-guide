@@ -13,6 +13,20 @@ module.exports = {
     },
 
     rules: {
+        // 验证是否需要调用 super()
+        'constructor-super': 2,
+        // 禁止对类重新赋值
+        'no-class-assign': 2,
+        // 禁止对使用 const 声明的变量重新赋值
+        'no-const-assign': 2,
+        // 禁止类中存在相同名字的成员
+        'no-dupe-class-members': 2,
+        // 禁止使用 Symbol 构造函数
+        'no-new-symbol': 2,
+        // 禁止在 super() 前使用 this/super
+        'no-this-before-super': 2,
+        // 在生成器函数中需要 yield
+        'require-yield': 2,
         // 设置箭头函数体风格，仅需要使用 return
         'arrow-body-style': [2, 'as-needed'],
         // 箭头函数仅在需要时使用 ()

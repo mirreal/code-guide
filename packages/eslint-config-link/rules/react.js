@@ -1,5 +1,4 @@
 module.exports = {
-    extends: ['plugin:react/recommended'],
     plugins: ['react'],
 
     parserOptions: {
@@ -10,6 +9,32 @@ module.exports = {
     },
 
     rules: {
+        // 组件需要展示名字
+        'react/display-name': 2,
+        // 禁用重复属性
+        'react/jsx-no-duplicate-props': 2,
+        // 禁用未声明的组件变量
+        'react/jsx-no-undef': 2,
+        // Prevent React to be incorrectly marked as unused
+        'react/jsx-uses-react': 2,
+        // Prevent variables used in JSX to be incorrectly marked as unused
+        'react/jsx-uses-vars': 2,
+        // 禁用废弃的方法
+        'react/no-deprecated': 2,
+        // 禁止直接使用 this.state 更改状态
+        'react/no-direct-mutation-state': 2,
+        // 禁用 findDOMNode()
+        'react/no-find-dom-node': 2,
+        // 禁用 isMounted()
+        'react/no-is-mounted': 2,
+        // 禁用未知的 DOM 属性
+        'react/no-unknown-property': 2,
+        // 禁用 React.render 的返回值
+        'react/no-render-return-value': 2,
+        // Prevent missing React when using JSX
+        'react/react-in-jsx-scope': 2,
+        // 在 render() 中总是需要 return
+        'react/require-render-return': 2,
         // 这里关掉属性类型校验
         'react/prop-types': 0,
         // 优先使用 class extends React.Component
