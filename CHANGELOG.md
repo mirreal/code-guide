@@ -1,6 +1,6 @@
 > changelog
 
-## 0.1.1
+## 0.1.2
 
 * remove extend recommend
 * add dot-notation

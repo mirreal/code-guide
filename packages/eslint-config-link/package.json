@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-link",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "JavaScript 编码规范指南",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/mirreal/code-guide",
   "dependencies": {
-    "eslint-config-link-base": "^0.1.1"
+    "eslint-config-link-base": "^0.1.2"
   },
   "devDependencies": {
     "editorconfig-tools": "^0.1.1",
